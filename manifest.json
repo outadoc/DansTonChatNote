@@ -1,0 +1,12 @@
+{
+   "content_scripts": [ {
+      "js": [ "dtcnote.js" ],
+      "matches": [ "http://danstonchat.com/*" ]
+   } ],
+   "description": "Afficher de nouveau la note des quotes sur DansTonChat (danstonchat.com). Script par Baptiste \"ashka\" Huve.",
+   "icons": {
+      "128": "icon.png"
+   },
+   "name": "DansTonChat Note",
+   "version": "1.0"
+}
